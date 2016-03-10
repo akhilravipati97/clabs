@@ -39,7 +39,7 @@
 				for($i=0;$i<5;$i+=1)
 				{
 					if($row["link".($i+1)]!=NULL)
-						echo "<p><img src='".$row["link".($i+1)]."'></p>";
+						echo "<p><img src='".$row["link".($i+1)]."' height=\"100px\" width=\"100px\"></p>";
 				}
 				echo "<br /><br />";
 			}
